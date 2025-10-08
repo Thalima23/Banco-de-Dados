@@ -56,4 +56,4 @@ SELECT * FROM tb_produtos;
  -- Atualizar o preço da rosa vermelha na tabela
  
  UPDATE tb_produtos SET preco = 10.00 where id= 2;
- 
+  UPDATE tb_produtos SET preco = 50.00 where id= 4;

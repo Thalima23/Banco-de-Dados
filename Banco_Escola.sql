@@ -25,3 +25,5 @@ SELECT * FROM tb_atributos;
 
 SELECT * FROM tb_atributos WHERE idade > 15;
 SELECT * FROM tb_atributos WHERE idade < 15;
+
+ UPDATE tb_atributos SET turma = '8º ano' where id= 3;

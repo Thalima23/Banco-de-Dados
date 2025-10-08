@@ -30,11 +30,11 @@ VALUES ("Ana Souza", "Analista de RH", "Recursos Humanos", 3200.00, "2022-03-10"
 
 	SELECT * FROM tb_colaboradores;
     
--- Visualizar somente o nome e o preço
+-- Visualizar somente salarios especificos
 
 SELECT * FROM tb_colaboradores WHERE salario > 2000;
 SELECT * FROM tb_colaboradores WHERE salario < 2000;
 
--- Atualizar o salario de Carlos na tabela
+-- Atualizar o salario de Carlos na tabela de dados
 
 UPDATE tb_colaboradores SET salario = 1900.00 where id= 2;
